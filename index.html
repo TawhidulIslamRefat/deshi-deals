@@ -1,28 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deshi-Deals | Home</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <!-- daisy ui cdn -->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-     <!-- tailwind css cdn -->
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <!-- google font cdn -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!-- font awesome cdn -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- custom css -->
- <link rel="stylesheet" href="style.css">
-</head>
-<body class="work-sans-font">
-  <h1 class="text-pink-500 font-bold text-3xl">Deshi-Deals</h1>  
-
-
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="work-sans-font bg-[#F8F8F8]">
+    <header>
+      <!-- nav section -->
+      <nav
+        class="flex justify-center items-center bg-white border-b-1 border-gray-200"
+      >
+        <div class="flex justify-center items-center my-[14px]">
+          <div>
+            <img src="./assets/logo.png" alt="" class="w-[78px] h-[78px]" />
+          </div>
+          <div>
+            <p class="text-[#e71580] text-[40px]">
+              Deshi <span class="font-[700]">Deals</span>
+            </p>
+            <p class="text-[#797075] text-xl">Cheap Price , Best Quality</p>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <div
+        class="parent-div bg-gradient-to-b from-white to-[#f6ddea] mb-64 pt-[140px]"
+      >
+        <div class="mb-[40px]">
+          <h1 class="text-[50px] font-[700] text-center">
+            Purchase TK 200 or above & get <br /><span class="text-[#E527B2]"
+              >20% off</span
+            >
+          </h1>
+          <!-- <h1 class="text-[50px] font-[700] text-[#E527B2] text-center">20% off</h1> -->
+        </div>
+        <div class="flex justify-center items-center gap-36">
+          <p class="text-[20px] font-[500]">Use Promo Code</p>
+          <button class="bg-[#E527B2] text-white py-[14px] px-[40px] rounded">
+            SELL200
+          </button>
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="./assets/hero-bg.png" alt="" class="-mb-30" />
+        </div>
+      </div>
+    </header>
+    <main class="pb-[60px]">
+      <!-- items section -->
+      <div class="parent  w-11/12 mx-auto grid grid-cols-12 gap-8">
+        <!-- left-side content -->
+        <div class="col-span-9">
+          <!-- kichen section -->
+          <div>
+            <h1 class="text-[40px] font-[600]">Kitchenware</h1>
+            <div class="card-parent grid grid-cols-3 gap-6 mt-[32px]">
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/kitchen-1.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">K. Accessories</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    39.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/kitchen-2.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">K. Accessories</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    25.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/kitchen-3.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Home Cooker</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    49.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sports section -->
+          <div class="my-[60px]">
+            <h1 class="text-[40px] font-[600]">Sportswear</h1>
+            <div class="card-parent grid grid-cols-3 gap-6 mt-[32px]">
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/sports-1.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Sports Back Cap</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    49.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/sports-2.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Full Jersey Set</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    69.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/sports-3.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Sports cates</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    159.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fuarniture section -->
+          <div>
+            <h1 class="text-[40px] font-[600]">Furniture</h1>
+            <div class="card-parent grid grid-cols-3 gap-6 mt-[32px]">
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/furniture-1.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/23.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Single Relax Chair</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    185.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/furniture-2.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Children play</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                    299.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-sm">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./assets/furniture-3.png"
+                    alt="Shoes"
+                    class="rounded-xl bg-[#1111110d] py-[33px] px-[96px]"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="flex">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                    <img src="./assets/Frame.png" alt="">
+                  </div>
+                  <h2 class="text-[20px] font-[500]">Flexible Sofa</h2>
+                  <p class="text-[#11111180] text-[20px]">
+                   339.00 TK
+                  </p>
+                  <div class="card-actions ">
+                    <button class="btn bg-pink-500 text-white">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right side concent -->
+        <div class=" col-span-3 pt-[100px]">
+          <!-- input field cupon -->
+          <div class="bg-white py-[24px] px-[28px] rounded-[8px]">
+            <p class="text-[24px] font-[500]">Have coupon?</p>
+            <div class="join w-full ">
+  <input class="input join-item bg-[#F8F8F8]" placeholder="Coupon code" />
+  <button class="btn join-item rounded bg-pink-500 text-white">Apply</button>
+</div>
+          </div>
+          <!-- cart and total cost -->
+         <div class="bg-white mt-[50px] py-[24px] px-[28px] rounded-[8px]">
+           <div>
+           
+          </div>
+          <div class="border-y-1 border-gray-200 py-[24px]">
+            <p class="text-[24px] font-[500]">Total price: </p>
+            <p class="text-[24px] font-[500]">Discount :</p>
+            <p class="text-[24px] font-[500]">Total:</p>
+          </div>
+          <div class="bg-pink-500 text-white text-center py-[15px] rounded-xl">Make Purchase</div>
+         </div>
+        </div>
+      </div>
+    </main>
     <script src="./Script/index.js"></script>
-</body>
+  </body>
 </html>
